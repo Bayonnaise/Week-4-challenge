@@ -1,5 +1,5 @@
 class Array
-	def iterator_inject(sum = 0)
+	def iteration_inject(sum = 0)
 		self.each { |number| sum += number }
 		sum
 	end

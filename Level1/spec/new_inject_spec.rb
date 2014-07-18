@@ -4,7 +4,7 @@ describe Array do
 
 	it 'sums an array using iteration' do
 		ary = [1,2,3,4,5]
-		expect(ary.iterator_inject).to eq 15
+		expect(ary.iteration_inject).to eq 15
 	end
 
 	it 'sums an array using recursion' do
